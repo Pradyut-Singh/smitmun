@@ -1,0 +1,216 @@
+/*
+    Modified by Jason W.
+    Original URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
+*/
+
+/* ==== Google font ==== */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic');
+
+
+
+
+
+
+/* ===========================
+--- CUSTOM STYLING
+============================ */
+
+.section-white {
+    margin-top: 0rem;
+    background-color: white;
+}
+.section-grey {
+    margin-top: 3rem;
+    background-color: #edf2f4;
+}
+
+.parallax-break {
+    padding:0;
+    height:50%;
+}
+
+.alert-bottom{
+    position: fixed;
+    bottom: 5px;
+    left:2%;
+    width: 96%;
+}
+
+#intro {
+    height: 100%;
+    position: relative;
+}
+#video-background {
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 10000000000000;
+}
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    margin-top: 35vh;
+    width: 100%;
+}
+.banner-info {
+    padding-bottom: 20px;
+    /* background-color: rgba(166,184,242,0.95); */
+    width: 70vh;
+    margin: 0 auto;
+}
+.banner-info h2 {
+    color: #FFF;
+	font-size: 75px;
+	line-height: 50px;
+	font-family: Montserrat, sans-serif;
+    font-weight: 400;
+	background-color: rgba(0, 0, 0, 0);
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 0px;
+	border-color: #000;
+	border-style: none;
+	text-shadow: -1px 0 1px #000;
+}
+
+
+
+/* brand thumbnails */
+/* =================== */
+
+
+figure.committee-thumbnail figcaption {
+	text-align: center;
+    margin-top: 30px;
+}
+
+
+figure.committee-thumbnail p {
+	position: absolute;
+	right: 30px;
+	left: 30px;
+	padding: 10px 0;
+}
+
+
+figure.committee-thumbnail p {
+    top:40%;
+	color:#111;
+	line-height: 1.5;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+    font-size: 30px;
+}
+
+
+
+
+figure.committee-thumbnail p {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.committee-thumbnail:hover img {
+	opacity: 0.25;
+    transition: opacity .4s ease-out;
+    -webkit-transition: opacity .4s ease-out;
+}
+
+figure.committee-thumbnail:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+
+
+
+
+
+
+
+
+
+/* ===========================
+--- Intro
+============================ */
+
+.intro {
+	 width:100%;
+     position:relative;
+/*	background: url(/ahhhstuff/img/white.png) no-repeat top center;*/
+     background-size: cover;
+     height: auto;
+}
+
+.intro .slogan .logo-wrapper img {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+
+
+#intro.intro {
+	padding:10% 0 0 0;
+}
+
+.intro .slogan {
+	text-align: center;
+
+}
+
+.intro .page-scroll {
+	text-align: center;
+}
+
+.brand-heading {
+    font-size: 40px;
+}
+
+.intro-text {
+    font-size: 18px;
+}
+
+.intro .slogan img {
+    margin-bottom: 20px;
+}
+
+.intro .slogan h2 {
+	color: #FFF;
+	font-size: 75px;
+	line-height: 50px;
+	font-family: Montserrat, sans-serif;
+    font-weight: 400;
+	background-color: rgba(0, 0, 0, 0);
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 0px;
+	border-color: #000;
+	border-style: none;
+	text-shadow: -1px 0 1px #000;
+}
+
+.intro .slogan h4 {
+    font-size: 35px;
+    font-family: arial, sans-serif;
+	color: #55b5e0;
+/*	text-shadow: -1px 1px 1px #000;*/
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+@media (max-width: 768px) {
+  .intro .slogan h2 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 600px) {
+  .intro .slogan h2 {
+    font-size: 36px;
+  }
+}
+

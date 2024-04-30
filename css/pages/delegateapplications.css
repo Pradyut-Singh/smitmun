@@ -1,0 +1,67 @@
+/*
+    Modified by Jason W.
+    Original URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
+*/
+
+/* ==== Google font ==== */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic');
+
+/* ===========================
+--- Custom styling
+============================ */
+
+.inline {
+    display: inline !important;
+}
+
+
+.text-green {
+    color: green;
+}
+.text-yellow {
+    color: orange;
+}
+.text-red {
+    color: red;
+}
+
+
+
+
+#disabled-button-wrapper {
+  display: block;
+}
+
+#disabled-button-wrapper .disabled-button-wrapper-option[disabled] {
+  pointer-events: none;
+}
+
+#disabled-button-wrapper{
+  cursor: not-allowed;
+}
+
+
+.nav-section {
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+.nav-com {
+    text-align: left;
+    font-style: italic;
+    font-size: 15px;
+}
+
+
+
+
+
+
+.social-media {
+    text-align: center;
+}
+
+
+
+
+
