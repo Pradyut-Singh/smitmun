@@ -212,9 +212,9 @@ html {
 .container .row .col-6 p {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
 }
 
 .ghari-wrap {
