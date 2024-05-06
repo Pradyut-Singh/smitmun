@@ -270,7 +270,7 @@ html {
 .supporter p {
     text-align: end;
     font-size: small;
-    color: #f8f8f8;
+    color: black;
 }
 
 .container .row .col .supporter img {
@@ -647,13 +647,17 @@ hr {
     margin-top: -100px;
 }
 
-.intro .slogan .summit h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/* .intro .slogan .summit h2{
+    font-family: Baskerville;
+} */
+
+.intro .slogan .summit image {
+    width: 20px;
+    height: 20px;
 }
 
 .intro .slogan .logo-wrapper {
     margin-top: 20px;
-
 }
 
 .intro .slogan .logo-wrapper img {
@@ -689,7 +693,6 @@ hr {
 
 .intro .slogan {
 	text-align: center;
-
 }
 
 .intro .page-scroll {
@@ -708,11 +711,22 @@ hr {
     margin-bottom: 20px;
 }
 
+.intro .slogan image {
+    width: 10px;
+    height: auto;
+}
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 .intro .slogan h2 {
 	color: #FFF;
 	font-size: 75px;
 	line-height: 50px;
-	font-family: Montserrat, sans-serif;
+	font-family: "Anton", sans-serif;
     font-weight: 400;
 	background-color: rgba(0, 0, 0, 0);
 	text-decoration: none;
