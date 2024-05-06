@@ -120,6 +120,7 @@ body {
 	font-weight: 300;
     color: #666;
     background-color: #fff;
+    font-size: 0.625rem;
 }
 
 .background-image {
@@ -192,9 +193,33 @@ html {
     align-items: center;
 }
 
+.container .row .col img {
+    border-radius: 50%; 
+    width: 25rem; 
+    height: 25rem; 
+    border: 1rem solid #ffffff;
+}
+
+
+
+.container .row .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .row .col-6 p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .ghari-wrap {
-    margin-right: 300px;
-    margin-left: 300px;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 50px;
     padding: 20px;
     background: rgba( 255, 255, 255, 0.3 );
@@ -242,6 +267,14 @@ html {
     text-align: end;
     font-size: small;
     color: #f8f8f8;
+}
+
+.container .row .col .supporter img {
+    width: 200px;
+    height: 200px;
+    border-radius: 0%;
+    border: 0px;
+    padding: 5px;
 }
 
 .left-div {
@@ -428,9 +461,9 @@ a:focus {
     font-weight: 700;
 }
 .navbar-brand img {
-    height: 80px;
-    width: 80px;
-    margin-top: -30px;
+    height: 5rem;
+    width: 5rem;
+    margin-top: -1.875rem;
 }
 
 .navbar-brand {
@@ -843,6 +876,14 @@ footer p {
 	color: #ffffff;
 }
 
+.footer-p-a {
+    display: block;
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+    color: #ffffff;
+}
+
 .credits, .credits a {
     color: #fff;
 }
@@ -852,11 +893,11 @@ Parallax
 ============================= */
 
 #parallax1{
-	background-image: url(../img/parallax/1.jpg);
+	/* background-image: url(../img/parallax/1.jpg); */
 }
 
 #parallax1:after {
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
+	/* background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC); */
 	content: "";
 	position: absolute;
 	bottom: 0;
@@ -869,12 +910,12 @@ Parallax
 
 
 #parallax2{
-	background-image: url(../img/parallax/2.jpg);
+	/* background-image: url(../img/parallax/2.jpg); */
 
 }
 
 #parallax2:after  {
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
+	/* background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC); */
 	content: "";
 	position: absolute;
 	bottom: 0;
