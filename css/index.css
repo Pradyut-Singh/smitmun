@@ -603,6 +603,11 @@ hr {
 .section-heading h2 {
 	font-size: 40px;
 }
+
+.section-heading h1 {
+    font-size: 40px;
+    color: #00728c;
+}
 .section-heading i {
 	margin-bottom: 20px;
 }
@@ -736,6 +741,7 @@ hr {
 	border-style: none;
 	text-shadow: -1px 0 1px #000;
 }
+
 
 .intro .slogan h4 {
     font-size: 35px;
