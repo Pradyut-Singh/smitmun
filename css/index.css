@@ -911,6 +911,13 @@ footer p {
     color: #fff;
 }
 
+.custom-block-body {
+    padding: 40px;
+    min-height: 200px;
+    border: 2px solid #f3f4f3;
+}
+
+
 /* ==========================
 Parallax
 ============================= */
