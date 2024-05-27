@@ -1162,6 +1162,10 @@ Parallax
 		margin-bottom: 30px;
 	}
 
+    .container .navbar-brand {
+        padding: 13px;
+    }
+
 
 }
 
