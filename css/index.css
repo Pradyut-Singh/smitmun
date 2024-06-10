@@ -406,6 +406,21 @@ html {
     margin: auto; /* Center the carousel */
   }
 
+.photo-link {
+    margin: 3rem;
+}
+
+.photo-link a {
+    color: #00728c;
+    font-size: 1.8rem;
+}
+
+.photo-link p {
+    color: #00728c;
+    font-size: 2.3rem;
+}
+
+
 h1,
 h2,
 h3,
